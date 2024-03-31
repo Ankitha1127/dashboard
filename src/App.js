@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Dashboard from './Dashboard';
+import { Card } from 'react-bootstrap';
 
 function App() {
   return (
@@ -92,6 +93,7 @@ function App() {
             </section>
         </div> */}
       <Dashboard/>
+      {/* <Card/> */}
     </div>
   );
 }
